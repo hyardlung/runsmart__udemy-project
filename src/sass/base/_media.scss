@@ -1,0 +1,125 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+    .container {
+        padding: 0 30px;
+    }
+    .promo {
+        &__header {
+            font-size: 37px;
+            line-height: 37px;
+        }
+        &__subheader {
+            margin-top: 12px;
+            font-size: 19px;
+            line-height: 19px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        &__logo {
+            width: 35%;
+        }
+        &__official {
+            font-size: 11px;
+            span {
+                font-size: 16px;
+            }
+        }
+        &__phone {
+            font-size: 16px;
+        }
+        button {
+            width: 135px;
+            height: 25px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 30px;
+            line-height: 30px;
+        }
+        &__subheader {
+            margin-top: 10px;
+            font-size: 15px;
+            line-height: 15px;
+        }
+        &__icons {
+            width: 400px;
+        }
+        &__icon {
+            font-size: 12px;
+            img {
+                width: 35%;
+            }
+        }
+        .button_main {
+            width: 260px;
+            height: 45px;
+            font-size: 15px;
+        }
+        &__link {
+            margin-top: 15px;
+            font-size: 15px;
+        }
+    }
+    .features {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            width: 410px;
+            margin-top: 45px;
+            &:nth-child(1) {
+                margin-top: 0;
+            }
+        }
+        &__title {
+            margin-top: 25px;
+            font-size: 16px;
+        }
+        &__text {
+            margin-top: 10px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        padding: 0 15px;
+    }
+    .header {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+        &__logo {
+            width: calc(50% - 30px);
+        }
+        &__official {
+            width: calc(50% - 30px);
+            font-size: 12px;
+            span {
+                font-size: 20px;
+                line-height: 35px;
+            }
+        }
+        &__contacts {
+            margin-top: 35px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 50px;
+            align-items: center;
+        }
+        &__icons {
+            width: 95%;
+        }
+    }
+    
+}
