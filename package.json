@@ -25,7 +25,8 @@
     "gulp-rename": "^1.4.0"
   },
   "dependencies": {
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "tiny-slider": "^2.9.2"
   },
   "browserslist": [
     "defaults",
@@ -33,5 +34,4 @@
     "not IE_Mob 11",
     "maintained node versions"
   ]
-
 }
