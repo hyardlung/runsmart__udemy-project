@@ -2,8 +2,11 @@
   padding: 81px 0;
   &__inner {
     position: relative;
-    width: 750px;
+    max-width: 750px;
     margin: 0 auto;
+    img {
+      width: 100%;
+    }
   }
   .slick-prev, 
   .slick-next {
@@ -21,6 +24,35 @@
   .slick-next {
     right: -66px;
     left: auto;
+  }
+  .slick {
+    &-dots {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 150px;
+      margin: 0 auto;
+      margin-top: 50px;
+      list-style-type: none;
+      li {
+        width: 18px;
+        height: 8px;
+        button {
+          display: block;
+          font-size: 0;
+          background-color: transparent;
+          width: 18px;
+          height: 8px;
+          border: 1px solid $main-color;
+          border-radius: 30%;
+        }
+      }
+    }
+    &-active {
+      width: 18px;
+      border-radius: 30%;
+      background-color: $main-color;
+    }
   }
   // .tns-item {
   //   img {
