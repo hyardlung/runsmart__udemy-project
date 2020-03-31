@@ -121,6 +121,21 @@
       margin-top: 50px;
     }
   }
+  .feedback {
+    &__img {
+      margin: 0;
+      margin-bottom: 30px;
+    }
+    &__item {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    &__text {
+      max-width: 80%;
+      margin: 0 auto;
+    }
+  }
 }
 
 @media (max-width: 575px) {
@@ -164,6 +179,11 @@
   .catalog {
     &__tab {
       font-size: 0.7rem;
+    }
+  }
+  .feedback {
+    &__text {
+      max-width: 95%;
     }
   }
 }
