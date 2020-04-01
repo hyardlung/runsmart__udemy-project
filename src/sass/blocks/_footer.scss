@@ -46,6 +46,9 @@
       border-radius: 100%;
       img {
         height: 27px;
+        &:hover {
+          animation: name duration timing-function delay iteration-count direction fill-mode;
+        }
       }
     }
   }
