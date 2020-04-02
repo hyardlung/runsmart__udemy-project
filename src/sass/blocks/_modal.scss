@@ -40,6 +40,26 @@
   &_mini {
     min-height: 140px;
   }
+  .invalid {
+    border: 1px solid $main-color
+  }
+  div.invalid {
+    margin-top: -15px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #c70101;
+    border: none;
+    &:nth-child(4) {
+      margin-top: -20px;
+    }
+
+
+
+
+
+
+  }
 }
 
 #consultation,
