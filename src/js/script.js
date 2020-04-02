@@ -95,4 +95,7 @@ $(document).ready(function() {
   validateForms('#consultation-form');
   validateForms('#consultation form');
   validateForms('#order form');
+
+  //Маска для номера телефона
+  $('[type=tel]').mask('+7 (000) 000-00-00', {placeholder: "+7 (___) ___-__-__"});
 });
