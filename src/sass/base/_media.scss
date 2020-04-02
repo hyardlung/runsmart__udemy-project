@@ -186,12 +186,63 @@
       max-width: 95%;
     }
   }
+  .modal {
+    min-height: 360px;
+    padding: 25px 25px 30px 25px;
+    &__close {
+      top: 10px;
+      right: 10px;
+      font-size: 30px;
+      line-height: 18px;
+    }
+    &__subtitle {
+      font-size: 16px;
+    }
+    &__descr {
+      font-size: 13px;
+    }
+  }
+  .feed-form {
+    input {
+      height: 45px;
+      font-size: 13px;
+    }
+  }
+  .button {
+    &_submit {
+      height: 43px;
+      font-size: 12px;
+    }
+  }
 }
 
 @media (max-width: 375px) {
   .catalog {
     &__tab {
       font-size: 0.6rem;
+    }
+  }
+  .footer {
+    &__info {
+      height: 220px;
+      padding: 30px 0 35px 0;
+    }
+    &__addr {
+      font-size: 18px;
+    }
+    &__phone {
+      margin-bottom: 35px;
+      font-size: 18px;
+    }
+    &__social {
+      &-item {
+        width: 40px;
+        height: 40px;
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
     }
   }
 }
